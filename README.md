@@ -13,16 +13,16 @@ The target variables of this model relate to the binary classification of a posi
 
 The following columns were included in the model:
 
-"*" APPLICATION_TYPE—Alphabet Soup application type
-"*" AFFILIATION—Affiliated sector of industry
-"*" CLASSIFICATION—Government organization classification
-"*" USE_CASE—Use case for funding
-"*" ORGANIZATION—Organization type
-"*" STATUS—Active status
-"*" INCOME_AMT—Income classification
-"*" SPECIAL_CONSIDERATIONS—Special considerations for application
-"*" ASK_AMT—Funding amount requested
-"*" IS_SUCCESSFUL—Was the money used effectively
+* APPLICATION_TYPE—Alphabet Soup application type
+* AFFILIATION—Affiliated sector of industry
+* CLASSIFICATION—Government organization classification
+* USE_CASE—Use case for funding
+* ORGANIZATION—Organization type
+* STATUS—Active status
+* INCOME_AMT—Income classification
+* SPECIAL_CONSIDERATIONS—Special considerations for application
+* ASK_AMT—Funding amount requested
+* IS_SUCCESSFUL—Was the money used effectively
 
 #### Original Unique Values for each Column 
 
@@ -76,11 +76,11 @@ Using pd.get.dummies, all of the non-numerical data was transformed into 0s and 
 
 Parameters such as layer numbers and neurons, epochs, and random state were altered one parameter at a time.  The goal was to acheive a good accuracy and a trend that indicated both the training accuracy and validation accuracy were in line with each other.  Ultimately, the following configuration was acheived:
 
---> Layer 1: 18 neurons Activation Relu
---> Layer 2: 2 neurons Activation Tanh
---> Epochs: 28
---> reandom State: 1
---> Strafity:  Yes
+* Layer 1: 18 neurons Activation Relu
+* Layer 2: 2 neurons Activation Tanh
+* Epochs: 28
+* reandom State: 1
+* Strafity:  Yes
 
 ##### Model Sequenctial
 ![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/Model%20Sequenial.png)
