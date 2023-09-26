@@ -26,7 +26,8 @@ The following columns were included in the model:
 
 #### Original Unique Values for each Column 
 
-#  Insert unique values photo here
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/unique%20values.png)
+
 
 #### Application Type
 
@@ -34,7 +35,7 @@ The first parameter that was adjust was the application type.  It had a total nu
 
 ##### Unique Values for application type
 
-# insert Application type photo here
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/application%20type.png)
 
 #### Classification type
 
@@ -42,21 +43,21 @@ The number of unique values for classification was 71.  Through optimization it 
 
 ##### Unique values for Classifciation
 
-# Insert Classification unique values here
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/Classification%20Unique%20Values.png)
 
 #### Ask Amount
 
 The number of unique values was 8747.  Although the model ran with 73% accuracy if all of the unique values were used, the high number could lead to overfitting of the model.  In order to determine a way of using the ask amount in the model the data was first analyzed and found to have the following values:
 
-# insert max min ask
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/min%20max%20ask%20amount.png)
 
 A box plot was also created to get an idea of the distribution of the data. 
 
-# Insert Box Plot Here
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/Box%20Plot.png)
 
 From this visualization and the statistical values, it was determined to do a logistic ditribution.  
 
-# Insert Log plot here
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/Log%20Dristribution.png)
 
 Ultimately, the data was binned as follows:  [0, 10000, 50000, 100000, 1000000, 10000000]
 
@@ -81,13 +82,15 @@ Parameters such as layer numbers and neurons, epochs, and random state were alte
 --> reandom State: 1
 --> Strafity:  Yes
 
+##### Model Sequenctial
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/Model%20Sequenial.png)
 
-# insert photo of the sequential
 
+##### Final plot of the training accuracy and validation accuracy
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/70%20accuracy%20final.png). 
 
-
- # insert final graph here. 
- 
+##### Final Calculation of the Model Accuracy and Model Loss
+![](https://github.com/TraceyGeneau/deep-learning-challenge/blob/main/images/Final%20Config.png)
  
 While I wasn't able to achieve an accuracy higher than 75% with this model, reaching a 70% accuracy rate marks a significant milestone and a substantial improvement compared to our initial efforts. I've dedicated considerable time to improving the model's performance, starting from data preprocessing and carefully adjusting model parameters one step at a time. It's a prudent choice to utilize this model for now, and I recommend keeping a watchful eye on its performance over time. At this stage, we already have a robust foundation to build upon.
 
